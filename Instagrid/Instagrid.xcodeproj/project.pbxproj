@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7090ECC22A60254900E890C1 /* UIView+image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7090ECC12A60254900E890C1 /* UIView+image.swift */; };
 		70F6B9E12A3B3863000A0488 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70F6B9E02A3B3863000A0488 /* AppDelegate.swift */; };
 		70F6B9E32A3B3863000A0488 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70F6B9E22A3B3863000A0488 /* SceneDelegate.swift */; };
 		70F6B9E52A3B3863000A0488 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70F6B9E42A3B3863000A0488 /* ViewController.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7090ECC12A60254900E890C1 /* UIView+image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+image.swift"; sourceTree = "<group>"; };
 		70F6B9DD2A3B3863000A0488 /* Instagrid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Instagrid.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		70F6B9E02A3B3863000A0488 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		70F6B9E22A3B3863000A0488 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 				70F6B9E22A3B3863000A0488 /* SceneDelegate.swift */,
 				70F6B9E92A3B3863000A0488 /* Assets.xcassets */,
 				70F6B9EB2A3B3863000A0488 /* LaunchScreen.storyboard */,
+				7090ECC12A60254900E890C1 /* UIView+image.swift */,
 			);
 			path = "Supporting Files";
 			sourceTree = "<group>";
@@ -178,6 +181,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7090ECC22A60254900E890C1 /* UIView+image.swift in Sources */,
 				70F6B9E52A3B3863000A0488 /* ViewController.swift in Sources */,
 				70F6B9E12A3B3863000A0488 /* AppDelegate.swift in Sources */,
 				70F6B9E32A3B3863000A0488 /* SceneDelegate.swift in Sources */,
@@ -327,6 +331,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S29RUQ396F;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Instagrid/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -357,6 +362,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S29RUQ396F;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Instagrid/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;

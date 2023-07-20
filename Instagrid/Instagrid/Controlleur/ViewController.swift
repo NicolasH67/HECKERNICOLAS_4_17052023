@@ -23,6 +23,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var layout1Button: UIButton!
     @IBOutlet weak var layout2Button: UIButton!
     @IBOutlet weak var layout3Button: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -52,6 +53,7 @@ class ViewController: UIViewController {
     private func setLabel() {
         delmLabel.font = UIFont(name: "delm-medium", size: 25.0)
         delmLabel.textColor = UIColor(red: 1, green: 1, blue: 1, alpha: 1)
+        
         thirstyLabel.font = UIFont(name: "ThirstySoftRegular", size: 30.0)
         thirstyLabel.textColor = UIColor(red: 1, green: 1, blue: 1, alpha: 1)
     }
@@ -105,8 +107,6 @@ class ViewController: UIViewController {
             activityViewController.completionWithItemsHandler = { _, _, _, _ in
                 UIView.animate(withDuration: 0.2) {
                     self.pictureView.transform = .identity
-                    self.topButton.transform = .identity
-                    self.bottomButton.transform = .identity
                     
                 }
             }
